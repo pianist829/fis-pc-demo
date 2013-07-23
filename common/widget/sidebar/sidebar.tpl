@@ -4,4 +4,4 @@
     <span class="icon-bar"></span>
 </a>
 {%widget name="common:widget/nav/nav.tpl"%}
-{%script%} require('./sidebar.js'); {%/script%}
+{%script%} require.async('./sidebar.js'); {%/script%}
