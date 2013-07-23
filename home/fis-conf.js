@@ -8,13 +8,3 @@ fis.config.merge({
         }
     }
 });
-//增加对md文件的roadmap.path配置
-fis.config.get('roadmap.path').unshift({
-    //md文件
-    reg : '**.md',
-    //发布到/template/目录下
-    release : '/template/${namespace}$&'
-});
-
-//增加对md文件的roadmap.ext配置
-fis.config.get('roadmap.ext')['md'] = 'html';
